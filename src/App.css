@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+.item{
+    min-height: 20rem;
+    min-width: 20rem;
+    padding: 40px;
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.item img{
+    width: 85%;
+    height: 70%;
+    border-radius: 2rem;
+    pointer-events: none;
+    margin-bottom: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.inner-carousel{
+    display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.carousel{
+    cursor: grab;
+    overflow: hidden;
 }
-
-.App-link {
-  color: #61dafb;
+.baslik {
+    text-align: center;
+    color : rgb(173, 230, 181);
+    margin-top: 5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.parag{
+    width: 100%;
+    height: 15%;
+}
+.scheduler-baslik{
+    text-align: center;
+    color : blue;
+    margin-top: 5px;
 }
